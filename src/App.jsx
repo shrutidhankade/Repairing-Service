@@ -1,8 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion'
 
 
 
 const App = () => {
+  const brands = [
+    {
+      name: 'LG',
+      logoUrl: 'https://www.lg.com/lg5-common/images/common/share/share-default.jpg',
+    },
+    {
+      name: 'Samsung',
+      logoUrl: 'https://1000logos.net/wp-content/uploads/2017/06/Samsung_logo.png',
+    },
+    {
+      name: 'IFB',
+      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/49/IFB.png',
+    },
+  ];
 
 
   return (
@@ -168,6 +183,72 @@ const App = () => {
 
 
         </div>
+
+        {/* <div className="page3 w-full lg:w-[80%]  max-sm:flex-col max-sm:items-center relative h-auto mx-auto max-sm:w-full p-8">
+          <h1 className="text-4xl font-bold text-center mb-10">Brands We Repair</h1>
+
+          <div className="w-full flex flex-row overflow-hidden whitespace-nowrap">
+            <motion.div
+              initial={{ x: "0" }}
+              animate={{ x: "-100%" }}
+              transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
+              className="text-9xl flex gap-14 font-semibold leading-none tracking-tight"
+            >
+              {[...Array(3)].map((_, index) => (
+                <React.Fragment key={index}>
+                  <div>
+                    <img
+                      className="h-[35vh] lg:h-[20vh] max-sm:h-[10vh] object-contain"
+                      src="https://static.brandirectory.com/logos/lgaa001_lg.png"
+                      alt="LG Logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="h-[20vh] lg:h-[15vh] max-sm:h-[10vh] object-contain"
+                      src="https://1000logos.net/wp-content/uploads/2017/06/Samsung_logo.png"
+                      alt="Samsung Logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="h-[20vh] lg:h-[15vh] max-sm:h-[10vh] object-contain"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmWmhnxQb9qqF3GVN1UJyDJpBS4VIpATqXfB-HXYh8QZK0H1jIDXvrix9b1NuBaMALtg&usqp=CAU"
+                      alt="IFB Logo"
+                    />
+                  </div>
+                </React.Fragment>
+              ))}
+            </motion.div>
+          </div>
+        </div> */}
+
+        <section className="  w-full lg:w-[80%] max-sm:w-[80%] mx-auto py-5 bg-gray-100 mb-16 -mt-10">
+          <div className="container mx-auto">
+            <h2 className="text-[2.4vw] font-bold text-center max-sm:text-2xl text-[#267FCA] mb-8">Brands we service and repair</h2>
+            <div className="flex flex-wrap gap-10 max-sm:gap-2 justify-center">
+              {brands.map((brand, index) => (
+                <div key={index} className="m-4 p-2 bg-white rounded-lg shadow-md max-w-sm">
+                  <img
+                    src={brand.logoUrl}
+                    alt={`${brand.name} Logo`}
+                    className="w-44 h-16  max-sm:w-24 sm:h-32 mx-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
 
 
         <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative h-auto py-4 mx-auto ">
@@ -914,3 +995,5 @@ scrolling="no"
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14654.06221321371!2d79.80552024429957!3d23.333329416231855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b94d1daa2077%3A0xe6463b4949c9b68b!2sKarondi%2C%20Madhya%20Pradesh%20483113!5e0!3m2!1sen!2sin!4v1709634728112!5m2!1sen!2sin"
 style={{ filter: "grayscale(1) contrast(1.2) opacity(0.9) " }}
 /> */}
+
+
