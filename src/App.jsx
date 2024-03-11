@@ -52,7 +52,7 @@ const App = () => {
                     <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
-                        src="https://samparkcare.com/wp-content/uploads/2023/02/Male-Technician-With-Screwdriver-Repairing-Refrigerator-in-Kitchen.jpg"
+                        src="https://media.istockphoto.com/id/1096963798/photo/serviceman-repairing-refrigerator.jpg?s=612x612&w=0&k=20&c=nwVWXcvAVUxbWtv4XeUXnnDZ7yrkVh2JZUk-58IQmRM="
                         alt=""
                       />
                     </div>
@@ -65,7 +65,7 @@ const App = () => {
                     <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
-                        src="https://acservicegurgaon.com/wp-content/uploads/2021/02/ac-repair-sushant-lok.jpg"
+                        src="https://bdevs.net/wp/airvice/wp-content/uploads/2021/05/b1.jpg"
                         alt=""
                       />
                     </div>
@@ -172,17 +172,6 @@ const App = () => {
         </div>
 
        
-
-
-
-
-
-
-
-
-
-
-
 
         <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative max-sm:py-8 h-auto py-4 mx-auto ">
           <div id="services"
