@@ -173,56 +173,12 @@ const App = () => {
 
        
 
-        <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative max-sm:py-8 h-auto py-4 mx-auto ">
+        <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative max-sm:py-4 h-auto py-4 mx-auto ">
           <div id="services"
             className="section relative lg:w-[100%] pb-8  md:pb-0  "
           >
             <div className="container  mx-auto   max-sm:-mt-14">
-              {/* Heading start */}
-              {/* <header className="text-center mx-auto mb-12 ">
-                <h2 className=" leading-normal mb-2  text-4xl font-bold text-black font-medium">
-                  What We Do
-                </h2>
-                <svg
-                  version="1.1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 100 60"
-                  style={{ margin: "0 auto", height: 35 }}
-                  xmlSpace="preserve"
-                >
-                  <circle
-                    cx="50.1"
-                    cy="30.4"
-                    r={5}
-                    className="stroke-primary"
-                    style={{ fill: "transparent", strokeWidth: 2, strokeMiterlimit: 10 }}
-                  />
-                  <line
-                    x1="55.1"
-                    y1="30.4"
-                    x2={100}
-                    y2="30.4"
-                    className="stroke-primary"
-                    style={{ strokeWidth: 2, strokeMiterlimit: 10 }}
-                  />
-                  <line
-                    x1="45.1"
-                    y1="30.4"
-                    x2={0}
-                    y2="30.4"
-                    className="stroke-primary"
-                    style={{ strokeWidth: 2, strokeMiterlimit: 10 }}
-                  />
-                </svg>
-                <p className="text-black   text-xl mx-auto -mt-8 -pb-4">
-                  "Transform Your Health: Comprehensive Nutritional Services for Your Unique Journey
-                </p>
-              </header> */}
-              {/* End heading */}
-              {/* row */}
+             
               <div className="flex flex-wrap flex-row  text-center">
                 <div
                   className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
@@ -719,7 +675,7 @@ const App = () => {
             <div className="mx-auto w-full max-w-screen-xl px-6 py-6 lg:py-8">
               <div className="md:flex gap-28 justify-between">
                 <div className="mb-6 md:mb-0 -mt-7">
-                  <img className='h-[32vh] max-w-full max-sm:ml-12 max-sm:mt-8' src="../../images/repairlogo.jpeg" alt="" />
+                  <img className='h-[32vh] max-w-full max-sm:ml-12 max-sm:mt-7' src="../../images/repairlogo.jpeg" alt="" />
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-6">
 
