@@ -90,7 +90,7 @@ const App = () => {
               </div>
             </div>
             <div className="right w-full lg:w-[50%] h-full relative">
-              <div className="call w-full h-[15vh] max-sm:mt-[73%] max-sm:-ml-20 relative">
+              <div className="call w-full h-[15vh] max-sm:mt-[75%] max-sm:-ml-20 relative">
                 <button
                   className="absolute top-5 right-2 px-5 py-1 lg:px-12 lg:py-2 text-white flex items-center gap-4 rounded-full hover:font-medium lg:mt-5 cursor-pointer hover:translate-y- hover:transition-all hover:ease-linear hover:duration-150 transition-all ease-linear duration-150 transition-all ease-linear duration-150 translate-y-"
                   style={{ backgroundColor: "#267FCA" }}
