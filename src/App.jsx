@@ -34,7 +34,7 @@ const App = () => {
 
                 <div className="gola flex max-sm:flex-col gap-8 max-sm:items-center w-full h-[39vh] mt-16 max-sm:bg-zinc-200 max-sm:mt-10 max-sm:rounded-lg max-sm:w-[76%] max-sm:ml-[12.5%] max-sm:h-[84vh]">
                   <div className="circle max-sm:flex max-sm:items-center max-sm:justify-center w-full h-full">
-                    <div className="gol w-[10vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[10vw] rounded-full ">
+                    <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
                         src="https://miro.medium.com/v2/resize:fit:1000/0*h5cgkFjDz5I3OoaA.jpg"
@@ -47,7 +47,7 @@ const App = () => {
                   </div>
 
                   <div className="circle max-sm:flex max-sm:items-center max-sm:justify-center w-full h-full">
-                    <div className="gol w-[10vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[10vw] rounded-full ">
+                    <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
                         src="https://samparkcare.com/wp-content/uploads/2023/02/Male-Technician-With-Screwdriver-Repairing-Refrigerator-in-Kitchen.jpg"
@@ -60,7 +60,7 @@ const App = () => {
                   </div>
 
                   <div className="circle max-sm:flex max-sm:items-center max-sm:justify-center w-full h-full">
-                    <div className="gol w-[10vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[10vw] rounded-full ">
+                    <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
                         src="https://acservicegurgaon.com/wp-content/uploads/2021/02/ac-repair-sushant-lok.jpg"
@@ -73,7 +73,7 @@ const App = () => {
                   </div>
 
                   <div className="circle max-sm:flex max-sm:items-center max-sm:justify-center w-full h-full">
-                    <div className="gol w-[10vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[10vw] rounded-full ">
+                    <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
                         src="https://5.imimg.com/data5/SELLER/Default/2021/2/EM/YL/UM/20993439/microwave-repairing-service-500x500.jpg"
