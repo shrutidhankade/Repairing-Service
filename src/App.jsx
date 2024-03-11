@@ -61,7 +61,7 @@ const App = () => {
                     </h1>
                   </div>
 
-                  <div className="circle max-sm:flex max-sm:items-center max-sm:justify-center w-full h-full">
+                  <div className="circle max-sm:flex  max-sm:items-center max-sm:justify-center w-full h-full">
                     <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
                         className="w-full h-full object-cover"
