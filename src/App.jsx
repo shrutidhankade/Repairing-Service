@@ -70,7 +70,7 @@ const App = () => {
                       />
                     </div>
                     <h1 className="pl-5 max-sm:text-[3.8vw] max-sm:w-1/2 font-semibold text-[1.2vw]">
-                      AC and Repairing  <br /> Service
+                    Expert AC  Repairing  <br /> Service
                     </h1>
                   </div>
 
