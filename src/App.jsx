@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { HiArrowCircleRight } from "react-icons/hi";
-import { HiArrowCircleLeft } from "react-icons/hi";
+
 
 
 const App = () => {
-
-
-
-
 
 
   return (
@@ -806,7 +801,7 @@ const App = () => {
 
               </div>
               <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8 " />
-              <div className="sm:flex bg-[#267FCA] rounded-lg max-sm:rounded-lg max-sm:w-[115%] p-2 max-sm:-ml-6 max-sm:-mt-4 max-sm:text-center sm:items-center sm:justify-between ">
+              <div className="sm:flex bg-[#267FCA] rounded-lg max-sm:rounded-lg max-sm:w-[115%] p-2 max-sm:-ml-6  max-sm:text-center sm:items-center sm:justify-between ">
                 <span className="text-sm ml-5 tracking-wider text-white sm:text-left">
                   Copyright
                   <a href="https://hiteshchoudhary.com/" className="hover:underline">
@@ -895,23 +890,6 @@ const App = () => {
             </div>
           </footer>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
