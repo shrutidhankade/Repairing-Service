@@ -4,20 +4,7 @@ import { motion } from 'framer-motion'
 
 
 const App = () => {
-  const brands = [
-    {
-      name: 'LG',
-      logoUrl: 'https://www.lg.com/lg5-common/images/common/share/share-default.jpg',
-    },
-    {
-      name: 'Samsung',
-      logoUrl: 'https://1000logos.net/wp-content/uploads/2017/06/Samsung_logo.png',
-    },
-    {
-      name: 'IFB',
-      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/49/IFB.png',
-    },
-  ];
+ 
 
 
   return (
@@ -34,13 +21,13 @@ const App = () => {
             <div className="left w-full lg:w-[50%] h-full">
               <div className="logo w-full max-sm:mx-20 h-[15vh]">
                 <img
-                  className="h-full object-cover"
-                  src="https://www.codester.com/static/uploads/items/000/034/34217/preview.jpg"
+                  className="h-full w-36 max-sm:h-[22vh] max-sm:ml-7  object-cover"
+                  src="../../images/repairlogo.jpeg"
                   alt=""
                 />
               </div>
               <div className="text w-full h-[75vh] ">
-                <h1 className="font-bold max-sm:leading-[12vw] max-sm:text-3xl max-sm:text-center text-zinc-800 font-[bacasime antique regular] text-[2.6vw] tracking-[0.1vw] leading-[4vw] pt-10">
+                <h1 className="font-bold max-sm:leading-[12vw] max-sm:text-3xl max-sm:text-center text-zinc-800 font-[bacasime antique regular] text-[2.6vw] max-sm:mt-3 tracking-[0.1vw] leading-[4vw] pt-10">
                   <span className="text-[#267FCA]">
                     Customer Care Service
                   </span>{' '}
@@ -103,7 +90,7 @@ const App = () => {
               </div>
             </div>
             <div className="right w-full lg:w-[50%] h-full relative">
-              <div className="call w-full h-[15vh] max-sm:mt-72 max-sm:-ml-20 relative">
+              <div className="call w-full h-[15vh] max-sm:mt-[73%] max-sm:-ml-20 relative">
                 <button
                   className="absolute top-5 right-2 px-5 py-1 lg:px-12 lg:py-2 text-white flex items-center gap-4 rounded-full hover:font-medium lg:mt-5 cursor-pointer hover:translate-y- hover:transition-all hover:ease-linear hover:duration-150 transition-all ease-linear duration-150 transition-all ease-linear duration-150 translate-y-"
                   style={{ backgroundColor: "#267FCA" }}
@@ -184,61 +171,7 @@ const App = () => {
 
         </div>
 
-        {/* <div className="page3 w-full lg:w-[80%]  max-sm:flex-col max-sm:items-center relative h-auto mx-auto max-sm:w-full p-8">
-          <h1 className="text-4xl font-bold text-center mb-10">Brands We Repair</h1>
-
-          <div className="w-full flex flex-row overflow-hidden whitespace-nowrap">
-            <motion.div
-              initial={{ x: "0" }}
-              animate={{ x: "-100%" }}
-              transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
-              className="text-9xl flex gap-14 font-semibold leading-none tracking-tight"
-            >
-              {[...Array(3)].map((_, index) => (
-                <React.Fragment key={index}>
-                  <div>
-                    <img
-                      className="h-[35vh] lg:h-[20vh] max-sm:h-[10vh] object-contain"
-                      src="https://static.brandirectory.com/logos/lgaa001_lg.png"
-                      alt="LG Logo"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="h-[20vh] lg:h-[15vh] max-sm:h-[10vh] object-contain"
-                      src="https://1000logos.net/wp-content/uploads/2017/06/Samsung_logo.png"
-                      alt="Samsung Logo"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="h-[20vh] lg:h-[15vh] max-sm:h-[10vh] object-contain"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmWmhnxQb9qqF3GVN1UJyDJpBS4VIpATqXfB-HXYh8QZK0H1jIDXvrix9b1NuBaMALtg&usqp=CAU"
-                      alt="IFB Logo"
-                    />
-                  </div>
-                </React.Fragment>
-              ))}
-            </motion.div>
-          </div>
-        </div> */}
-
-        <section className=" brand  w-full lg:w-[80%] max-sm:w-[80%] mx-auto py-5 max-sm:-mt-20 bg-gray-100 mb-16 -mt-10">
-          <div className="container mx-auto">
-            <h2 className="text-[2.4vw] font-bold text-center max-sm:text-2xl text-[#267FCA] mb-8">Brands we service and repair</h2>
-            <div className="flex flex-wrap gap-10 sm:gap-10 max-sm:gap-2 justify-center">
-              {brands.map((brand, index) => (
-                <div key={index} className="m-4 p-2 bg-white rounded-lg shadow-md max-w-sm">
-                  <img
-                    src={brand.logoUrl}
-                    alt={`${brand.name} Logo`}
-                    className="w-24 sm:w-44 h-16  max-sm:w-20 sm:h-32 mx-auto object-contain"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+       
 
 
 
@@ -796,8 +729,8 @@ const App = () => {
           <footer className="border-y border-2">
             <div className="mx-auto w-full max-w-screen-xl px-6 py-6 lg:py-8">
               <div className="md:flex gap-28 justify-between">
-                <div className="mb-6 md:mb-0">
-                  <img className='h-[26vh] max-w-full' src="https://www.codester.com/static/uploads/items/000/034/34217/preview.jpg" alt="" />
+                <div className="mb-6 md:mb-0 -mt-7">
+                  <img className='h-[32vh] max-w-full max-sm:ml-16 max-sm:mt-12' src="../../images/repairlogo.jpeg" alt="" />
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-6">
 
