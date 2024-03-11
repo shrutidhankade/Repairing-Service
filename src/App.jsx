@@ -719,7 +719,7 @@ const App = () => {
             <div className="mx-auto w-full max-w-screen-xl px-6 py-6 lg:py-8">
               <div className="md:flex gap-28 justify-between">
                 <div className="mb-6 md:mb-0 -mt-7">
-                  <img className='h-[32vh] max-w-full max-sm:ml-12 max-sm:mt-2' src="../../images/repairlogo.jpeg" alt="" />
+                  <img className='h-[32vh] max-w-full max-sm:ml-12 max-sm:mt-8' src="../../images/repairlogo.jpeg" alt="" />
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-6">
 
