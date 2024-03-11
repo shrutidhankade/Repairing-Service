@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 
 const App = () => {
- 
+
 
 
   return (
@@ -70,7 +70,7 @@ const App = () => {
                       />
                     </div>
                     <h1 className="pl-5 max-sm:text-[3.8vw] max-sm:w-1/2 font-semibold text-[1.2vw]">
-                    Expert AC  Repairing  <br /> Service
+                      Expert AC  Repairing  <br /> Service
                     </h1>
                   </div>
 
@@ -171,14 +171,14 @@ const App = () => {
 
         </div>
 
-       
+
 
         <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative max-sm:py-4 h-auto py-4 mx-auto ">
           <div id="services"
             className="section relative lg:w-[100%] pb-8  md:pb-0  "
           >
             <div className="container  mx-auto   max-sm:-mt-14">
-             
+
               <div className="flex flex-wrap flex-row  text-center">
                 <div
                   className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
