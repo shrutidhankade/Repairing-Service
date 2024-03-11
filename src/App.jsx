@@ -103,7 +103,7 @@ const App = () => {
               </div>
             </div>
             <div className="right w-full lg:w-[50%] h-full relative">
-              <div className="call w-full h-[15vh] max-sm:mt-64 max-sm:-ml-20 relative">
+              <div className="call w-full h-[15vh] max-sm:mt-72 max-sm:-ml-20 relative">
                 <button
                   className="absolute top-5 right-2 px-5 py-1 lg:px-12 lg:py-2 text-white flex items-center gap-4 rounded-full hover:font-medium lg:mt-5 cursor-pointer hover:translate-y- hover:transition-all hover:ease-linear hover:duration-150 transition-all ease-linear duration-150 transition-all ease-linear duration-150 translate-y-"
                   style={{ backgroundColor: "#267FCA" }}
@@ -223,7 +223,7 @@ const App = () => {
           </div>
         </div> */}
 
-        <section className="  w-full lg:w-[80%] max-sm:w-[80%] mx-auto py-5 bg-gray-100 mb-16 -mt-10">
+        <section className=" brand  w-full lg:w-[80%] max-sm:w-[80%] mx-auto py-5 max-sm:-mt-20 bg-gray-100 mb-16 -mt-10">
           <div className="container mx-auto">
             <h2 className="text-[2.4vw] font-bold text-center max-sm:text-2xl text-[#267FCA] mb-8">Brands we service and repair</h2>
             <div className="flex flex-wrap gap-10 sm:gap-10 max-sm:gap-2 justify-center">
@@ -251,7 +251,7 @@ const App = () => {
 
 
 
-        <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative h-auto py-4 mx-auto ">
+        <div className=" services w-full lg:w-[82%]   flex max-sm:flex-col relative max-sm:py-8 h-auto py-4 mx-auto ">
           <div id="services"
             className="section relative lg:w-[100%] pb-8  md:pb-0  "
           >
