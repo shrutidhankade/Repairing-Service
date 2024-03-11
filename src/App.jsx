@@ -47,7 +47,7 @@ const App = () => {
                   centre In Bhopal
                 </h1>
 
-                <div className="gola flex max-sm:flex-col gap-8 max-sm:items-center w-full h-[39vh] mt-16 max-sm:bg-zinc-200 max-sm:mt-10 max-sm:rounded-lg max-sm:w-[76%] max-sm:ml-[12.5%] max-sm:h-[84vh]">
+                <div className="gola flex max-sm:flex-col gap-8 max-sm:items-center w-full h-[39vh] mt-16 max-sm:bg-zinc-200 max-sm:mt-10 max-sm:rounded-lg max-sm:w-[76%] max-sm:ml-[12.5%] max-sm:h-[89vh]">
                   <div className="circle max-sm:flex max-sm:items-center max-sm:justify-center w-full h-full">
                     <div className="gol w-[9vw] max-sm:w-[30vw] max-sm:h-[30vw] overflow-hidden h-[9vw] rounded-full ">
                       <img
@@ -226,13 +226,13 @@ const App = () => {
         <section className="  w-full lg:w-[80%] max-sm:w-[80%] mx-auto py-5 bg-gray-100 mb-16 -mt-10">
           <div className="container mx-auto">
             <h2 className="text-[2.4vw] font-bold text-center max-sm:text-2xl text-[#267FCA] mb-8">Brands we service and repair</h2>
-            <div className="flex flex-wrap gap-10 max-sm:gap-2 justify-center">
+            <div className="flex flex-wrap gap-10 sm:gap-10 max-sm:gap-2 justify-center">
               {brands.map((brand, index) => (
                 <div key={index} className="m-4 p-2 bg-white rounded-lg shadow-md max-w-sm">
                   <img
                     src={brand.logoUrl}
                     alt={`${brand.name} Logo`}
-                    className="w-44 h-16  max-sm:w-24 sm:h-32 mx-auto object-contain"
+                    className="w-24 sm:w-44 h-16  max-sm:w-20 sm:h-32 mx-auto object-contain"
                   />
                 </div>
               ))}
