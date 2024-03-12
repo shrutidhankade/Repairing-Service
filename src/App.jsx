@@ -22,7 +22,7 @@ const App = () => {
               <div className="logo w-full max-sm:mx-20 h-[15vh]">
                 <img
                   className="h-full w-36 max-sm:h-[22vh] max-sm:ml-7  object-cover"
-                  src="../../images/repairlogo.jpeg"
+                  src="../../images/repair.jpeg"
                   alt=""
                 />
               </div>
